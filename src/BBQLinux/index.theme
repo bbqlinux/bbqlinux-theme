@@ -1,13 +1,15 @@
 [Desktop Entry]
 Name=BBQLinux
 Type=X-GNOME-Metatheme
-Comment=The BBQLinux theme (based on Numix)
+Comment=The BBQLinux Theme (based on Numix)
+Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Numix
-MetacityTheme=Numix
+GtkTheme=BBQLinux
+MetacityTheme=BBQLinux
 IconTheme=gnome-carbonite
-GtkColorScheme=bg_color:#dedede,fg_color:#555555,base_color:#f9f9f9,text_color:#333333,selected_bg_color:#0088CC,selected_fg_color:#f9f9f9,tooltip_bg_color:#2d2d2d,tooltip_fg_color:#dedede,titlebar_bg_color:#2d2d2d,titlebar_fg_color:#dcdcdc,menubar_bg_color:#2d2d2d,menubar_fg_color:#dcdcdc,toolbar_bg_color:#dedede,toolbar_fg_color:#555555,menu_bg_color:#2d2d2d,menu_fg_color:#dcdcdc,panel_bg_color:#2d2d2d,panel_fg_color:#dcdcdc,link_color:#0088CC
+GtkColorScheme=selected_bg_color:#0088CC,link_color:#0088CC
 CursorTheme=mate
 CursorSize=24
 NotificationTheme=nodoka
+ButtonLayout=:minimize,maximize,close
