@@ -1,7 +1,7 @@
 # Maintainer: Daniel Hillenbrand <codeworkx [at] bbqlinux [dot] org>
 
 pkgname=bbqlinux-theme
-pkgver=1.0.1
+pkgver=1.0.2
 pkgrel=1
 pkgdesc="The BBQLinux Theme (based on Numix)"
 arch=('any')
@@ -10,7 +10,7 @@ license=('GPL')
 depends=('gtk-engines' 'gtk-engine-murrine' 'gnome-colors-icon-theme' 'gnome-colors-icon-theme-extras')
 conflicts=('gtk-theme-bbqlinux')
 
-build () {
+package () {
 	mkdir -p $pkgdir/usr/share/themes/
 	cp -r $srcdir/BBQLinux $pkgdir/usr/share/themes/
 }
