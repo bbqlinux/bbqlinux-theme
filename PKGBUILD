@@ -1,7 +1,7 @@
 # Maintainer: Daniel Hillenbrand <codeworkx [at] bbqlinux [dot] org>
 
 pkgname=bbqlinux-theme
-pkgver=1.1.1
+pkgver=1.1.2
 pkgrel=1
 pkgdesc="The BBQLinux Theme (based on Numix)"
 arch=('any')
