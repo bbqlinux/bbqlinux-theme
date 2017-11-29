@@ -1,3 +1,5 @@
 *.[oa]
 *.pkg.*
 pkg/
+src/
+numix-themes/
