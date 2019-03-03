@@ -1,14 +1,14 @@
 # Maintainer: Daniel Hillenbrand <codeworkx [at] bbqlinux [dot] org>
 
 pkgname=bbqlinux-theme
-pkgver=2.6.7
+pkgver=2.7.0
 pkgrel=1
 pkgdesc='The BBQLinux Theme (based on Numix)'
 arch=('any')
 url='https://github.com/bbqlinux/bbqlinux-theme'
 license=('GPL3')
 makedepends=('gdk-pixbuf2' 'git' 'glib2' 'libxml2' 'ruby-sass')
-depends=('gtk-engine-murrine' 'gnome-colors-icon-theme' 'gnome-colors-icon-theme-extras')
+depends=('gtk-engine-murrine' 'gnome-colors-icon-theme' 'gnome-colors-icon-theme-extras' 'papirus-icon-theme')
 
 source=('numix-themes::git+https://github.com/shimmerproject/Numix.git')
 md5sums=('SKIP')
@@ -25,7 +25,7 @@ prepare() {
 
     sed -i 's/Numix/BBQLinux/' src/metacity-1/metacity-theme-2.xml
     sed -i 's/Numix/BBQLinux/' src/metacity-1/metacity-theme-3.xml
-    sed -i "s/IconTheme=.*/IconTheme=gnome-carbonite/g" src/index.theme   
+    sed -i "s/IconTheme=.*/IconTheme=Papirus/g" src/index.theme   
     sed -i 's/Numix/BBQLinux/' src/index.theme
     sed -i 's/Numix/BBQLinux/' Makefile
 }
